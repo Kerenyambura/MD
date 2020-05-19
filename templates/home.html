@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+    MappingDiaires-Home
+{% endblock %}
+
+
+{% block content %} 
+<body>
+
+    
+<div class="container"><h1 style=" text-align: center;margin: auto;
+    margin-top: 60px;
+    width: 60%;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    " >
+    Welcome To MappingDiaries 
+    
+    </h1>
+    
+    </div>
+
+    <div class="container">
+        <h5 style="text-align: center; margin: auto;" 
+        >Mapping for Change</h5>
+    </div>
+    
+
+    <div class="container" style="text-align: center; margin-top: 60px;">
+
+        <a href="{{ url_for('about') }}">
+
+            <button type="button" class="btn  btn-lg">About Us</button>
+
+          </a>
+
+          <a href="{{ url_for('ourwork') }}">
+
+            <button type="button" class="btn  btn-lg">Our Work</button>
+
+          </a>
+          <a href="{{ url_for('contactus') }}">
+
+            <button type="button" class="btn  btn-lg">Contact Us</button>
+
+          </a>
+        </div>
+
+    <div class="container" style="margin-top: 100px;">
+        <h1 style=" font-size: 50px;font-weight: bolder;">
+            Affordable, Customized GIS Solutions
+        </h1>
+    </div>
+    <div class="container">
+        <h2 style="font-style: normal; font-size: medium; font-weight: normal;">
+        Kila Kazi Enterprises is a Professional Consulting Firm that provides 
+        affordable and customized Geographical Information Systems (GIS) Solutions to the public, 
+        private and NGO sectors. Kila Kazi specializes in Geospatial Data Services, Spatial Analytics, 
+        and Business Analysis Solutions with a focus on Location Intelligence and Research Analytics.
+    </h2>
+</div>
+
+<div class="card-group" style="margin-top: 50px; width: 55; height: 55;" >
+
+    <div class="card border-primary mb-3"  style="margin-right: 30px;margin-left: 30px; max-width: 18rem;">
+      <img src="/static/KK-Geospatial-Consulting-300x300.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Geospatial Consulting</h5>   
+      </div>
+    </div>
+
+    <div class="card border-primary mb-3" style="margin-right: 30px; max-width: 18rem;">
+      <img src="/static/KK-GIS-Analytics-300x300.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">GIS Analytics</h5>
+        
+      </div>
+    </div>
+    <div class="card border-primary mb-3" style=" margin-right: 30px; max-width: 18rem;">
+      <img src="/static/KK-Location-Intelligence-300x300.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Location Intelligence</h5>
+        
+      </div>
+    </div>
+    <div class="card border-primary mb-3" style=" margin-right: 30px; ">
+        <img src="/static/GIS trainign.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GIS Training</h5>
+          
+        </div>
+      </div>
+  </div>
+
+  <div class="container" style="text-align: center; margin-top: 60px;">
+
+  <a href="{{ url_for('contactus') }}">
+
+    <button type="button" class="btn btn-warning btn-lg">Schedule a Free Meeting with us</button>
+
+  </a>
+</div>
+        
+    
+
+    
+    
+
+
+
+
+
+
+ 
+</body>
+
+
+
+    
+
+
+    
+
+    {% endblock %} 
